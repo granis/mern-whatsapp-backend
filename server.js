@@ -48,7 +48,7 @@ db.once("open", () => {
         received: messageDetails.received,
       });
     } else {
-      console.log("Eerror triggering pusher");
+      // console.log("Another trigger");
     }
   });
 });
